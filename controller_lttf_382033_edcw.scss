@@ -1,0 +1,28 @@
+const randomNumber = getRandomNumber();
+banana
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+banana
+
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+function addNumbers(a, b) { return a + b; }
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const findSmallestNumber = numbers => Math.min(...numbers);
+orange / grape
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const getUniqueValues = array => [...new Set(array)];
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+apple
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+false / 1
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+15,11,7,92,62,77,98,80,15,69,12,82,43,45,66,44,55,62,13,23,46,36,86,92,47,64,41,32,67,85,5 - 22
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
